@@ -1,3 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
 a {
-    color: black;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+img {
+    width: 100%;
+}
+/*header - navigation*/
+#home {
+    background: url('../images/hero3.jpg')no-repeat center center/cover;
+    height: 100vh;
 }
