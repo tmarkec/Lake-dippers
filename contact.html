@@ -15,42 +15,37 @@
 </head>
 <body>
     <!--Header section-->
-    <header id="main-home">
+    <header id="home">
         <div class="container">
             <nav class="main-nav">
                 <h1>LAKE DIPPERS</h1>
                 <ul>
-                    <li><a href="index.html" class="current">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Gallery</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="contact.html" class="current">Contact Us</a></li>
                 </ul>
             </nav>
-            <div class="text-hero">
-                <h1>Join us on our amazing journey!!!     
-                </h1>
-                <p>Hop in the lake in one of the bost beautiful scenaries in Ireland our National Park Killarney</p>
-                <button class="btn">
-                    <a href="#">Contact Us</a>
-                </button>
-            </div>
     </header>
-    <!--Main section-->
-    <section>
-        <div class="articles">
-            <div class="article-text">
-             <h2>Explore our lakes with us</h2>
-             <p>You've always wished to participate in neighbourhood events and activities, 
-                    and you don't fear water? Then you have come to the right place. Join us as we 
-                    study the positive effects of swimming year-round in the stunning lakes of National Park Killarney. We guarantee you excellent company and breathtaking sights.
-                    Visit our material, then get in touch with us for additional details. </p>
-            </div>
-            <div class="article-image">
-                
-            </div>
-        </div>
-    </section>
-        </div>
+    <!--Form section-->
+    <div class="form-container">
+        <h3>Contact Form</h3>
+        <form action="#" name="contact_form">
+            <label for="fname">First Name</label>
+		    <input id="fname" name="first_name" type="text" required>
+            <label for="lname">Last Name</label>
+		    <input id="lname" name="last_name" type="text" required>
+            <label for="email">Email Address</label>
+		    <input id="email" name="email_address" type="email" required>
+            <label for="phone">Phone Number</label>
+		    <input id="phone" name="phone_number" type="number" required>
+            <p>Subscribe to our Newsletter</p>
+            <input type="checkbox">
+            <label for="text_area">Message</label>
+            <textarea id="text_area" name="text_area"></textarea>
+            <input type="submit" value="Let's swimm!"
+		</div>
+        </form>
         <!--Footer section-->
     <footer class="main-footer">
         <div class="footer-container">

@@ -23,7 +23,7 @@ img {
     border-radius: 5px;
 }
 /*header background img*/
-#home {
+#main-home {
     background: url('../images/hero3.jpg')no-repeat center center/cover;
     height: 100vh;
 }
