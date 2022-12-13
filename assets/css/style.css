@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     font-family: 'Dosis', sans-serif;
     max-width: 1400px;
@@ -108,4 +108,40 @@ img {
 .article-text p {
     margin-top: 1rem;
     line-height: 1.9;
+}
+
+/*----------------footer--------------*/
+.main-footer {
+    max-height: 13rem;
+    overflow: hidden;
+    background-color: rgba(0, 48, 255, 0.33);
+}
+.footer-container {
+    display: flex;
+    flex-grow: 1;
+}
+.footer-container  h4 {
+    padding-bottom: 1rem;
+}
+.location {
+    padding: 1rem 0.4rem;
+    font-size: 1.1rem;
+}
+.map {
+    object-fit: contain;
+    max-height: 12rem;
+    max-width: 12rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.social {
+    padding: 1rem 0.4rem;
+}
+.social li {
+    padding: 0.1rem;
+}
+.social a {
+    color: black;
+    padding-top: 0.1rem;
 }
