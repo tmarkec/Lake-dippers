@@ -172,9 +172,7 @@ img {
     word-spacing: 4px;
 }
 /*----------------------contact page - form--------------------*/
-.home {
-    height: 100vh;
-}
+
 .form-container {
     padding:10%;
     max-width: 600px;
