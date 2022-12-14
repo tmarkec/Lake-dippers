@@ -238,13 +238,25 @@ img {
     align-items: center;
     margin: 20px;
 }
-
+.gallery-container h3 {
+    font-size: 1.5rem;
+    padding: 2rem;
+    color: rgba(0, 48, 255, 0.8);
+    
+}
 .box {
     display: flex;
     justify-content: space-between;
+    padding-top: 1rem;
 }
 .row {
     display: flex;
     flex-direction: column;
     width: 33%;
+}
+.row img {
+    border-radius: 5px;
+    margin: 5px;
+    max-height: 500px;
+    max-width: 400px;
 }
