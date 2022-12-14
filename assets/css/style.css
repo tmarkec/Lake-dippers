@@ -279,27 +279,30 @@ img {
 
 /*---testemonials section------------*/
 .testemonials-container {
-    display: flex;
-    max-height:50vh;
-    margin: 2rem;
-    justify-content: center;
-    align-items: center;   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;  
+    margin: 2rem 3rem;
 }
 .testemonials-container .people {
     display: flex;
     flex-direction: column;
     margin: 0.5rem;
+    border: 1px solid red;
+    
 }
 .people .people-image {
     display: flex;
     flex: 1;
     justify-content: center;
     align-items: baseline;
-    padding: 0.5rem;
+    padding: 0.7rem;
+    
 }
 .people-image img {
     max-width: 70px;
     max-width: 70px;
+    border: 2px solid rgba(0, 48, 255, 0.8);
     border-radius: 50%;
     margin: 0.2rem 0.6rem;
 }
@@ -310,4 +313,11 @@ img {
 .author .span {
     padding-left: 1rem;
     font-style: italic;
+}
+.people .people-text {
+    text-align: left;
+    padding:0.5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    min-height: 20vh;
 }
