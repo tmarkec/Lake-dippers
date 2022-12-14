@@ -283,6 +283,18 @@ img {
     max-height:50vh;
     margin: 2rem;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
+}
+.testemonials-container .people {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+.people .people-image {
+    display: flex;
+    flex: 1;
+}
+.people-image img {
+    max-width: 60px;
+    max-width: 60px;
 }
