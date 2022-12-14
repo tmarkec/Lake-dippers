@@ -187,7 +187,7 @@ img {
     color: rgba(0, 48, 255, 0.8);
     padding-bottom: 2rem;
 }
-.form-fields {
+.form-container .form-fields {
     display: flex;
     flex-direction: column;
     max-width: 600px;
@@ -245,17 +245,17 @@ img {
     padding: 2rem;
     color: rgba(0, 48, 255, 0.8);   
 }
-.box {
+.gallery-container .box {
     display: flex;
     justify-content: space-between;
     padding-top: 1rem;
 }
-.row {
+.gallery-container .box .row {
     display: flex;
     flex-direction: column;
     width: 33%;
 }
-.row img {
+.box .row img {
     border-radius: 5px;
     margin: 5px;
     max-height: 500px;
