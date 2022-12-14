@@ -190,11 +190,12 @@ img {
 .form-fields {
     display: flex;
     flex-direction: column;
-    min-width:400px;
-    min-height: 400px;
+    max-width: 600px;
+    max-height: 600px;
     border-left: 5px solid orange;
     border-right: 5px solid orange;
     border-radius: 30px;
+
 }
 .text-input {
     width: 100%;
@@ -206,6 +207,7 @@ img {
 .labels {
     padding:10px;
     height: 100%;
+    max-width: 60%;
 }
 .area {
     height: 100px;
@@ -241,8 +243,7 @@ img {
 .gallery-container h3 {
     font-size: 1.5rem;
     padding: 2rem;
-    color: rgba(0, 48, 255, 0.8);
-    
+    color: rgba(0, 48, 255, 0.8);   
 }
 .box {
     display: flex;
