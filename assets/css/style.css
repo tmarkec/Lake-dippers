@@ -238,7 +238,13 @@ img {
     align-items: center;
     margin: 20px;
 }
+
 .box {
     display: flex;
-    
+    justify-content: space-between;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
 }
