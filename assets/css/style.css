@@ -230,3 +230,15 @@ img {
     background-color: orange;
     color: black;
 }
+/*-------------------------Gallery page------------*/
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.box {
+    display: flex;
+    
+}
