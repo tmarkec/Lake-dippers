@@ -265,6 +265,7 @@ img {
 .testemonials-container {
     padding: 2rem;
     display: flex;
+    /*flex-wrap: wrap;*/
     align-items: center;
     justify-content: center;
 }
@@ -278,6 +279,7 @@ img {
 .people-image {
     display: flex;
     align-items: baseline;
+    padding: 3px;
 }
 .people-image .author{
     font-size: 14px;
