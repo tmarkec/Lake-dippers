@@ -326,5 +326,8 @@ img {
     object-fit: cover;
 }
 .people .people-text{
-    padding: 10px;
+    padding: 0.8rem 1rem;
+}
+.people-text .people-body {
+    padding:10px;
 }
