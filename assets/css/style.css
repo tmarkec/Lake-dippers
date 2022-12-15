@@ -269,8 +269,11 @@ img {
     justify-content: center;
 }
 .testemonials-container .people {
-    padding: 10px;
+    margin: 10px;
     width: 25%;
+    border: 2px solid orange;;
+    border-radius: 5px;
+
 }
 .people-image {
     display: flex;
@@ -288,8 +291,15 @@ img {
 .people-image .author-image {
     height: 90px;
     width: 90px;
+    padding: 10px;
 }
 .people-image .author-image img {
     height: 100%;
     width: 100%;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 48, 255, 0.7);
+    object-fit: cover;
+}
+.people .people-text{
+    padding: 10px;
 }
