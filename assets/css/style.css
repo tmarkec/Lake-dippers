@@ -268,3 +268,11 @@ img {
     align-items: center;
     justify-content: center;
 }
+.testemonials-container .people {
+    padding: 10px;
+    width: 25%;
+}
+.people-image .author{
+    font-size: 14px;
+    font-weight: 800;
+}
