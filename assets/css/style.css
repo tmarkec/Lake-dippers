@@ -262,68 +262,9 @@ img {
     max-width: 400px;
 }
 /*-----------------------about page----------------------*/
-.about-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 50vh;
-    margin: 2rem;
-}
-.about-container .about-section {
-    display: flex;
-}
-.about-section > div {
-    flex: 1;
-    align-items: center;
-}
-
-/*---testemonials section------------*/
 .testemonials-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0.5rem;  
-    margin: 2rem 3rem;
-}
-.testemonials-container .people {
+    padding: 2rem;
     display: flex;
-    flex-direction: column;
-    margin: 0.5rem;
-    border: 1px solid red;
-    background-color: rgba(0, 48, 255, 0.8);
-    
-}
-.people .people-image {
-    display: flex;
-    flex: 1;
-    width: 100%;
-    justify-content: space-between;
-    align-items: baseline;
-    padding: 0.7rem;
-    
-}
-.people-image img {
-    max-width: 70px;
-    max-width: 70px;
-    border: 2px solid rgba(0, 48, 255, 0.8);
-    border-radius: 50%;
-    margin: 0.2rem 0.6rem;
-}
-.people-image .author {
-    font-size: 13px;
-    padding: 0.3rem 1rem;
-}
-.author .span {
-    padding-left: 1rem;
-    font-style: italic;
-}
-.people .people-text {
-    text-align: left;
-    padding:0.5rem;
-    border: 1px solid black;
-    border-radius: 5px;
-    min-height: 20vh;
-    background-color: aliceblue;
-}
-.people-text .people-body {
-    padding-top: 1rem;
+    align-items: center;
+    justify-content: center;
 }
