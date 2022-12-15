@@ -280,8 +280,8 @@ img {
 /*---testemonials section------------*/
 .testemonials-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;  
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;  
     margin: 2rem 3rem;
 }
 .testemonials-container .people {
@@ -323,4 +323,7 @@ img {
     border-radius: 5px;
     min-height: 20vh;
     background-color: aliceblue;
+}
+.people-text .people-body {
+    padding-top: 1rem;
 }
