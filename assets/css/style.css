@@ -297,6 +297,7 @@ img {
     width: 25%;
     border: 2px solid orange;;
     border-radius: 5px;
+    box-shadow: 3px 3px 6px grey;
 
 }
 .people-image {
@@ -330,4 +331,8 @@ img {
 }
 .people-text .people-body {
     padding:10px;
+}
+.people-text .up {
+    font-size: 1.2rem;
+    color: rgba(0, 48, 255, 0.8);
 }
