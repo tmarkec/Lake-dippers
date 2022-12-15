@@ -289,12 +289,14 @@ img {
     flex-direction: column;
     margin: 0.5rem;
     border: 1px solid red;
+    background-color: rgba(0, 48, 255, 0.8);
     
 }
 .people .people-image {
     display: flex;
     flex: 1;
-    justify-content: center;
+    width: 100%;
+    justify-content: space-between;
     align-items: baseline;
     padding: 0.7rem;
     
@@ -320,4 +322,5 @@ img {
     border: 1px solid black;
     border-radius: 5px;
     min-height: 20vh;
+    background-color: aliceblue;
 }
