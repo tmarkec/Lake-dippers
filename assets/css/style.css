@@ -267,6 +267,7 @@ img {
 .about-section {
     display: flex;
     margin: 2rem;
+    padding: 3rem 1rem;
     justify-content: center;
     align-items: flex-start;
 }
@@ -303,7 +304,7 @@ img {
 
 /*testemonials section*/
 .testemonials-container {
-    padding: 3rem 2rem 6rem;
+    padding: 2rem 2rem 6rem;
     display: flex;
     align-items: center;
     justify-content: center;
