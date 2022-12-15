@@ -137,9 +137,9 @@ img {
 }
 .map {
     object-fit: contain;
-    max-height: 12rem;
-    max-width: 12rem;
-    border: 2px solid black;
+    max-height: 10rem;
+    max-width: 10rem;
+    border: 2px solid orange;
     border-radius: 50%;
     overflow: hidden;
 }
