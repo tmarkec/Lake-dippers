@@ -26,7 +26,7 @@ img {
 /*header background img*/
 #main-home {
     background: url('../images/hero3.jpg')no-repeat center center/cover;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
 }
 /*navigation menu*/
@@ -69,11 +69,10 @@ img {
     align-items: center; 
     text-align: center;
     margin-top: 20vh;
-}
-.text-hero {
     color: aliceblue;
     font-size: 2rem;
 }
+
 .text-hero h1 {
     padding-bottom: 2rem;
 }
@@ -81,7 +80,6 @@ img {
     padding: 2rem;
 }
 .btn {
-    
     border: none;
     border-radius: 10px;
     background-color: orange;
@@ -164,7 +162,7 @@ img {
     color: orange;
     word-spacing: 4px;
 }
-/*----------------------Cntact page - form--------------------*/
+/*----------------------Contact page - form--------------------*/
 
 .form-container {
     padding:3rem;
@@ -352,10 +350,21 @@ img {
 
 
 /*-----------media querry------------------------*/
-
+@media screen and (max-width:950px) {
+    /*gallery images--*/
+    .gallery-container .box{
+        column-count: 2;
+    }
+    #main-home {
+        height: 80vh;
+    }
+}
 /* header & footer*/
 
 @media screen and (max-width:550px) {
+    #main-home {
+        height: 70vh;
+    }
     .main-nav {
         flex-direction: column;
     }
@@ -372,16 +381,13 @@ img {
 /*hero - text*/
     .text-hero {
         margin-top: 30px;
-    } 
+    }  
+    .text-hero p{
+        margin: 10% 0;
+    }
     /*--gallery images--*/
     .gallery-container .box{
-        column-count: 1;
+        column-count: auto;
     }
 }
 
-@media screen and (max-width:950px) {
-    /*gallery images--*/
-    .gallery-container .box{
-        column-count: 2;
-    }
-}
