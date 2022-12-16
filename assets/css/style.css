@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Dosis', sans-serif;
     max-width: 1400px; 
+    box-sizing: border-box;
 }
 a {
     text-decoration: none;
@@ -33,7 +34,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-height: 65px;
+    min-height: 65px;
     
 }
 .logo-header {
@@ -65,7 +66,8 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    margin-top: 30vh;
+    text-align: center;
+    margin-top: 20vh;
 }
 .text-hero {
     color: aliceblue;
@@ -154,8 +156,10 @@ img {
     padding-top: 0.1rem;
 }
 .copyright {
+    display: block;
+    align-items: center;
     text-align: center;
-    padding: 0.2rem;
+    padding: 0.4rem;
     background-color: black;
     color: orange;
     word-spacing: 4px;
@@ -336,3 +340,29 @@ img {
     font-size: 1.2rem;
     color: rgba(0, 48, 255, 0.8);
 }
+
+
+/*-----------media querry------------------------*/
+
+/* header & footer*/
+
+@media screen and (max-width:550px) {
+    .main-nav {
+        flex-direction: column;
+    }
+    .main-footer {
+        max-height: 50vh;
+    }
+    .footer-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+/*hero - text*/
+    .text-hero {
+        margin-top: 8h;
+    }
+}
+
