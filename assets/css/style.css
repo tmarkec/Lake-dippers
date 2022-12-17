@@ -298,6 +298,28 @@ img {
     object-fit: cover;
     border-radius: 5px;
 } 
+/*benefits section----*/
+.benefits-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+}
+.benefits-container .swimm {
+    flex:1;
+    margin:2rem 4rem;
+}
+.benefits-container  h3 {
+    color: rgba(0, 48, 255, 0.8);
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.7rem;
+    border-bottom: 3px solid orange;
+}
+.benefits-container .cold-water {
+    flex: 1;
+    margin: 2rem 4rem;
+}
 
 /*----testemonials section----*/
 .testemonials-container {
