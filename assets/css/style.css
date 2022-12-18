@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
 * {
     margin: 0 auto;
     padding: 0;
@@ -5,6 +7,7 @@
     max-width: 1400px; 
     box-sizing: border-box;
 }
+
 a {
     text-decoration: none;
 }
@@ -311,6 +314,7 @@ img {
     width: 100%;
     padding: 1rem;
     margin: 2rem;
+    overflow: hidden;
 }
 .about-image img {
     width: 100%;
@@ -324,7 +328,8 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: top;
-    margin: 6rem;
+    margin: 1rem 2rem;
+    padding: 1rem;
 }
 .benefits-container .swimm {
     flex:1;
@@ -420,6 +425,7 @@ img {
     .testemonials-container .people{
         width: 100%;
     }
+   
 /*gallery images-----gallery.html*/
     .gallery-container .box{
         column-count: 2;
@@ -427,12 +433,18 @@ img {
     #main-home {
         height: 80vh;
     }
-    .text-hero p{
-        margin: 10% 0;
+   
+}
+@media  screen and (max-width:680px){
+    .benefits-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-footer {
+        width: 80px;
+        height: 80px;
     }
 }
-
-
 @media screen and (max-width:550px) {
  /* header & footer*/
     #main-home {
@@ -450,17 +462,24 @@ img {
     .footer-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
-        align-items: center;
+        gap: 1rem;
+        align-self: auto;
         padding: 10px;
+    }
+    .footer-container .social{
+        padding-right: 40%;
     }
 /*hero - text-------index.html*/
     .text-hero {
         margin-top: 30px;
     }  
-    .text-hero p{
-        margin: 10% 0;
+    .text-hero h1 {
+        font-size: 1.8rem;
     }
+    .text-hero p {
+        font-size: 1.4rem;
+    }
+   
 /*----about.html ------*/
 .testemonials-container {
     display: flex;
@@ -468,6 +487,9 @@ img {
 }
 .testemonials-container .people{
     width: 100%;
+}
+.benefits-container {
+    margin:0;
 }
  /*--gallery images----gallery.html*/
     .gallery-container .box{
