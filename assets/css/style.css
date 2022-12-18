@@ -114,14 +114,14 @@ img {
 /*----------------footer--------------*/
 .main-footer {
     max-height: 15rem;
-    background-color: rgba(0, 48, 255, 0.7);
+    background-color: #1446a0;
 }
 .footer-container {
     display: flex;
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    padding: 0.9rem;
+    padding: 1rem;
 }
 .footer-container  h4 {
     padding-bottom: 0.8rem;
@@ -135,20 +135,22 @@ img {
     cursor: pointer;
 }
 .logo-footer {
-    height: 105px;
-    width: 105px;
+    height: 110px;
+    width: 110px;
     }
  .footer-container li a {
     color: white;
  }  
  .footer-container li a:hover {
-    color: orange;
+    color: #F18805;
  }  
  .footer-container li {
     color: white;
+    font-size: 1.1rem;
+    line-height: 1.5;
  }
  .location li:nth-child(4) a{
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid #F18805;
  }
 
 /* .location {
@@ -252,10 +254,13 @@ img {
     column-count: 3;
 }
 .box img {
+    width: 100%;
+    max-height: 100%;
     margin-bottom: 10px;
     border-radius: 5px;
     box-shadow: 7px 7px 7px grey;
 }
+
 /* .gallery-container .box {
     display: flex;
     justify-content: space-between;
@@ -330,6 +335,10 @@ img {
 }
 .benefits-container a {
     color: rgba(0, 48, 255, 0.8);
+}
+.benefits-container a:hover {
+    color: orange;
+    border-bottom: 1px solid rgba(0, 48, 255, 0.8);
 }
 .benefits-container  h3 {
     color: rgba(0, 48, 255, 0.8);
