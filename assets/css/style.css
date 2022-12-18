@@ -113,7 +113,7 @@ img {
 }
 /*----------------footer--------------*/
 .main-footer {
-    max-height: 13rem;
+    max-height: 15rem;
     background-color: rgba(0, 48, 255, 0.7);
 }
 .footer-container {
@@ -121,17 +121,22 @@ img {
     flex-grow: 1;
     align-items: center;
     justify-content: center;
+    padding: 0.9rem;
 }
 .footer-container  h4 {
-    padding-bottom: 1rem;
+    padding-bottom: 0.8rem;
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .logo-footer {
-    height: 120px;
-    width: 120px;
+    height: 105px;
+    width: 105px;
     }
-.location {
+ .footer-container li {
+    color: white;
+ }  
+/* .location {
     padding: 1rem 0.4rem;
     font-size: 1.1rem;
 }
@@ -150,7 +155,7 @@ img {
 .social a {
     color: aliceblue;
     padding-top: 0.1rem;
-}
+} */
 .copyright {
     display: block;
     align-items: center;
