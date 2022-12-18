@@ -128,14 +128,29 @@ img {
     font-size: 1.2rem;
     font-weight: bold;
 }
-
+.logo-footer:hover {
+    cursor: pointer;
+}
+.logo-header:hover {
+    cursor: pointer;
+}
 .logo-footer {
     height: 105px;
     width: 105px;
     }
- .footer-container li {
+ .footer-container li a {
     color: white;
  }  
+ .footer-container li a:hover {
+    color: orange;
+ }  
+ .footer-container li {
+    color: white;
+ }
+ .location li:nth-child(4) a{
+    border-bottom: 2px solid orange;
+ }
+
 /* .location {
     padding: 1rem 0.4rem;
     font-size: 1.1rem;
