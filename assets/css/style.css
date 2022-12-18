@@ -128,8 +128,8 @@ img {
 }
 
 .logo-footer {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     }
 .location {
     padding: 1rem 0.4rem;
@@ -139,12 +139,7 @@ img {
     color: aliceblue;
 }
 .map {
-    object-fit: contain;
-    max-height: 10rem;
-    max-width: 10rem;
-    border: 2px solid orange;
-    border-radius: 50%;
-    overflow: hidden;
+    
 }
 .social {
     padding: 1rem 0.4rem;
