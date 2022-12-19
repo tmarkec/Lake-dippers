@@ -106,4 +106,32 @@ This is result for style.css page using W3C CSS Validator Services
  - I've tested form that works properly: requires entries in every field, will only accept email in the email field and that submit button works
  - image of form-tests performed
  ![Lakae dippers](./README-images/form2-test%20(1).webp)
- ### Bugs
+ ## Bugs
+- as I was buliding website I was constantly debuging and changing my code
+- I had big performance issues in the beggining with the webiste but I've managed to improve it by shrinking the size of my images
+- bellow 370px of width of the screen footer looks little bit messy, and 'photo gallery text border is way to big for text
+- logo in the header is little bit less visible due to opacity for the navigation bar
+## Features
+ - Navigation
+   - navigation is placed on top of the page it shows clicklable logo in the top left corner which will bring us on directly on the home page 
+   - other navigation links are on the right side in particular order: Home, About, Gallery, Contact
+- Home
+    - on this page there is big hero image with clickable button 'contact us' that directly brings us to the contact form
+    - there are also two sections on this page: 
+        - genereal information about area that community is located in with clear image of the lake
+        - 4 small testemonial boxes with user experience stories
+- About
+    - about us page gives us information about history and who we are in general, big group swimmer picture gives us mor
+    - there are also two small sections in which are explained healthy benefits and aspects that this community is promoting
+    - also there are two external links which can provide user with more information about those health benefits
+- Gallery
+    - this page gives user more eye-catching description of our community without user having to read anything about us or to navigate through website
+- Contact 
+    - standard form with input for first name, last name, email, phone number and message box
+    - this page allows user to get in dirrect contact with  us and can write any message or ask question that he have 
+- Footer
+    - footer is devided in 4 boxes with privacy policy on the verry bottom of the website
+        - same as in footer there is clickable logo which will take user to the 'home' page
+        - user can find links to our social media acounts
+        - user can get address of our community group with link to the location
+        - user can find usefull links that ties this group to local area which he can explore and get know little bit more about it
