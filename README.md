@@ -14,3 +14,32 @@ As a first time visitor, I want to be able to find pictures &/or user stories to
  As a frequent user, I want to view some updated pictures from 'events' or just regular meet-ups
  As a frequent user, I want to read new user stories and experiences 
  As a frequent user, I want to check to see if there is any news, or any new updates on the website
+
+ - ### Design
+#### 1. Colour Scheme
+The colour scheme chosen for this project are 'Tangerine' colour with it's hex value of '#f18805', which was used for borders, hover effects and headings in footer section. The majority of the website was in 'Yale Blue' colour with it's hex value of '#1446a0', which was used as background colour for navigation bar, footer and big heading texts. 
+
+#### 2. Typography 
+The Dosis font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
+
+  #### 3. Imagery
+Imagery is important. The large, background hero image stretches through the landing page and is designed to be striking and catch the user's attention at the very first glance. There are small images in the 'About us' page as well as in the 'Gallery' page which were used from Pexell and Unsplash website.
+
+## Features 
+Responsive on all device sizes
+
+## Technologies Used 
+- ### Languages Used 
+- HTML5 
+- CSS3
+- ### Frameworks, Libraries & Programes Used
+ #### Google fonts
+Google fonts were used to import the 'Dosis' font into the style.css file which is used on all pages throughout the project
+ #### Font Awesome
+Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+ #### Git
+Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+  #### GitHub
+GitHub is used to store the projects code after being pushed from Git.
+ #### Balsamic
+Balsamiq was used to create the wireframes during the design process
