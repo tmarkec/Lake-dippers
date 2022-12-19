@@ -23,7 +23,7 @@ img {
     overflow: hidden;
 } */
 .current {
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid #f18805;
     border-radius: 5px;
 }
 /*header background img*/
@@ -61,7 +61,7 @@ img {
     font-size: 1.3rem;
 }
 .main-nav ul li a:hover {
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid #f18805;
     border-radius: 5px;
 }
 /*header big text*/
@@ -85,7 +85,7 @@ img {
 .btn {
     border: none;
     border-radius: 10px;
-    background-color: orange;
+    background-color: #f18805;
 }
 .btn a {
     display: inline-block;
@@ -105,12 +105,12 @@ img {
     display:block;
     justify-content: center;
     margin: 4rem 1rem;
-    color: rgba(0, 48, 255, 0.8);
-    font-size: 2.2rem;
+    color: #1446a0;
+    font-size: 2.1rem;
     font-weight: bold;
 }
 .heading h2 {
-    border-bottom: 4px solid orange;
+    border-bottom: 4px solid #f18805;
     width: 60%;
     margin: 4rem;
 }
@@ -140,6 +140,9 @@ img {
 .logo-footer {
     height: 110px;
     width: 110px;
+    }
+.footer-container h4 {
+        color: #f18805;
     }
  .footer-container li a {
     color: white;
@@ -182,7 +185,7 @@ img {
     text-align: center;
     padding: 0.4rem;
     background-color: black;
-    color: orange;
+    color: #f18805;
     word-spacing: 4px;
 }
 /*----------------------Contact page - form--------------------*/
@@ -196,7 +199,7 @@ img {
 }
 .form-container h3 {
     font-size: 2rem;
-    color: rgba(0, 48, 255, 0.8);
+    color: #1446a0;
     padding-bottom: 2rem;
 }
 .form-container .form-fields {
@@ -204,8 +207,8 @@ img {
     flex-direction: column;
     max-width: 600px;
     max-height: 600px;
-    border-left: 5px solid orange;
-    border-right: 5px solid orange;
+    border-left: 5px solid #f18805;
+    border-right: 5px solid #f18805;
     border-radius: 30px;
 
 }
@@ -213,7 +216,7 @@ img {
     width: 100%;
     min-height: 30px;
     margin: 0.5rem 0 0.8rem 0;
-    border: 2px solid rgba(0, 48, 255, 0.8);
+    border: 2px solid #1446a0;
     border-radius: 4px;
 }
 .labels {
@@ -225,7 +228,7 @@ img {
     height: 100px;
     width: 100%;
     margin: 0.5rem 0 0.8rem 0;
-    border: 2px solid rgba(0, 48, 255, 0.8);
+    border: 2px solid #1446a0;
     border-radius: 4px;
 }
 .center {
@@ -234,14 +237,14 @@ img {
 }
 .button {
     font-size: 1.5rem;
-    border: 2px solid rgba(0, 48, 255, 0.9);
+    border: 2px solid #1446a0;
     border-radius: 10px;
-    background-color: rgba(0, 48, 255, 0.6);
+    background-color: #1446a0;
     color:aliceblue;
     padding: 0.5rem 0.9rem;
 }
 .button:hover {
-    background-color: orange;
+    background-color: #f18805;
     color: black;
 }
 /*-------------------------Gallery page------------*/
@@ -298,15 +301,15 @@ img {
     padding: 1rem;
     margin: 2rem;
     text-align: left;
-    border-left: 5px solid orange;
-    border-right: 5px solid orange;
+    border-left: 5px solid #f18805;
+    border-right: 5px solid #f18805;
     border-radius: 10px;
 }
 .about-text::first-letter {
     font-weight: bold;
     font-size: 3rem;
     height: 2rem;
-    color: rgba(0, 48, 255, 0.8);
+    color: #1446a0;
 }
 .about-section .about-image {
     flex: 1;
@@ -343,14 +346,14 @@ img {
 }
 .benefits-container a:hover {
     color: orange;
-    border-bottom: 1px solid rgba(0, 48, 255, 0.8);
+    border-bottom: 1px solid #1446a0;
 }
 .benefits-container  h3 {
-    color: rgba(0, 48, 255, 0.8);
+    color: #1446a0;
     margin-bottom: 1rem;
     font-weight: bold;
     font-size: 1.7rem;
-    border-bottom: 3px solid orange;
+    border-bottom: 3px solid #f18805;
 }
 .benefits-container .cold-water {
     flex: 1;
@@ -367,7 +370,7 @@ img {
 .testemonials-container .people {
     margin: 10px;
     width: 25%;
-    border: 2px solid orange;;
+    border: 2px solid #f18805;
     border-radius: 5px;
     box-shadow: 3px 3px 6px grey;
 
@@ -395,7 +398,7 @@ img {
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    border: 2px solid rgba(0, 48, 255, 0.7);
+    border: 2px solid #1446a0;
     object-fit: cover;
 }
 .people .people-text{
@@ -406,7 +409,7 @@ img {
 }
 .people-text .up {
     font-size: 1.2rem;
-    color: rgba(0, 48, 255, 0.8);
+    color: #1446a0;
 }
 
 
@@ -430,9 +433,6 @@ img {
     .gallery-container .box{
         column-count: 2;
     }
-    #main-home {
-        height: 80vh;
-    }
    
 }
 @media  screen and (max-width:680px){
@@ -447,8 +447,11 @@ img {
 }
 @media screen and (max-width:550px) {
  /* header & footer*/
+    .heading {
+        font-size: 1.8rem;
+    }
     #main-home {
-        height: 70vh;
+        height: 80vh;
     }
     .main-nav {
         flex-direction: column;
@@ -479,6 +482,9 @@ img {
     .text-hero p {
         font-size: 1.4rem;
     }
+    .about-section {
+        margin: 0;
+    }
    
 /*----about.html ------*/
 .testemonials-container {
@@ -494,6 +500,10 @@ img {
  /*--gallery images----gallery.html*/
     .gallery-container .box{
         column-count: auto;
+    }
+/*--form ---*/
+    .labels {
+        max-width: 80%;
     }
 }
 
