@@ -66,24 +66,18 @@ This is result for style.css page using W3C CSS Validator Services
 ## Testing user stories
 - First time visitor goal
   -  As a first time visitor I want ot understand purpose of this site and to easily navigate through
-     - Upon entering site user get clear big background image with swimmer and big hero text description, from which user can get the idea about webiste  
-     - In big here image there is also 'Contact us' link if I wish to make contact without using navigation bar, by putting it in the big hero image with contrast it attracts user more, that link which will take user straight into to the page with contact form. 
-     - On the very top of the page there is navigation bar which is readable and I can easily navigate thorugh to go to any of the other 3 pages that I likes, also bottom border showes me in which page I am currently on the website. I can also click logo in top left corner which will take me dirrectly to the 'Home' page.
-     - this is the screenshot of the navigation bar
+     - Upon entering site I can see clear big background image with swimmer and big hero text description which idea matches user websitsite description 
+     - In the top left corner of the page there is clear logo with the name of the website 
+     - In the same line as logo there is navigation bar which is eaisly to navigate through and it's design to never entrap user and to have clear page links we can look into if we want to, also there is another button-link in the middle of the background image in home page which colours and contrast attracts user to get in contact with them
      ![Lake dippers](./README-images/navigation.webp) 
   - As a first time visitor, I want to be able to find pictures &/or user stories to      
    further confirm their work to me.
-    - I can easily navigate myself to 'Gallery' page which will display imges of the website so I can look more for their work
-    - this is screenshot of gallery page which clearly display 'lake dippers' work and activities
-    ![Lkae Dippers](./README-images/gallery-page.webp)
-    - in 'Home' page while scroling down I can see  big testemonial section with 4 users confirming their work and give credibitlity to theirwebsite
-    - testemonials sections shows image, name & date of the person who wrote thier review/experience that they had by joining 'Lake Dippers' #
-    -this is screen shot of testemonials section
-    ![Lake Dippers](./README-images/testemonials-section.webp)
+    - I can navigate myself to the 'Gallery' page in which I can find dozen of images of the website so I can look at their activities, there are also images on 'home' page and 'about' page which are related to their community  
+    - in 'Home' page while scroling down I can see big testemonial section with 4 users confirming their work and give credibitlity to their website
+    - testemonials sections shows image, name & date of the person who wrote thier review/experience that they had by joining 'Lake Dippers'   
   - As a first time visitor, I want to be able to see where they are based and get options for how to get in contact with them, e.g. their social links/ contact form
-    - by srolling down the page in footer section there is community address with site map link, which takes me directly into new tab on google maps with pin-down location, on where they are based
-    - also in the footer there are social links which will take me to all social medai pages that 'Lake Dippers' are having account and using it
+    - In the footer of each page there is 'Location' section which gives me address with site map link that takes me directly into new tab on google maps with pin-down location on where they are based
+    - also in the footer of each page there are social links which will take me to all social media pages that 'Lake Dippers' are having account and using it for their social interaction with users
     - this is screenshoot of the footer with information
-    - this is screenshoot of the footer section
     ![Lake Dippers](./README-images/footer.webp)
-    - if I wish to send them privatly message I can either click on the 'Contact' in navigation menu or big button in the middle of the home page
+    - if I wish to contact them directly I can either click on the 'Contact' link in the navigation menu or big button'contact-us' in the middle of the home page on background image
