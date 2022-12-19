@@ -159,3 +159,16 @@ This is result for style.css page using W3C CSS Validator Services
    - Type git clone, and then paste the URL you copied in Step 3.
       - $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
    - Press Enter. Your local clone will be created.
+## Credits
+  - Code & Content
+    - help for my footer section and all along whenever I was stucjk with my code came through stackoverflow post and MDN Web docs
+    - inspiration for my header section and navigation bar came from Traversity media videos
+    - Love running project from Code Institute inspired me for the Gallery page
+  - Media
+    - credit for my images accross the website goes to unsplash.com and pexell.com for providing me with images
+    - for my logo I give credit to app.logo.com for easily generating my idea and automaticly creating it
+    - instructions for my favicon came from MDN Web docs 
+  - Acknowledgment
+    - special thank you goes to my mentor Narander who guided me through my project
+    - I would also like to thank tuttor support from Code Institue for their help, as well as whole Code Institue for giving me opportunity to attend this course and to work on this project
+    - last but not least I would like to thank Irene from Code Institute for giving guidance and schedules on daily basis in the classroom
