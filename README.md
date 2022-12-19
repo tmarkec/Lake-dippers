@@ -67,6 +67,23 @@ This is result for style.css page using W3C CSS Validator Services
 - First time visitor goal
   -  As a first time visitor I want ot understand purpose of this site and to easily navigate through
      - Upon entering site user get clear big background image with swimmer and big hero text description, from which user can get the idea about webiste  
-     - there is also 'Contact us' link if user wish to contact us without using navigation bar, and by putting it in the big hero image with contrast it attracts user more, that link which will take user straight into to the page with contact form. 
-     - On the very top of the page there is navigation bar which is readable and user can easily navigate thorugh to go to any of the other 3 pages that he/she likes. User can also click logo i top left corner which will take user dirrectly into landing page
+     - In big here image there is also 'Contact us' link if I wish to make contact without using navigation bar, by putting it in the big hero image with contrast it attracts user more, that link which will take user straight into to the page with contact form. 
+     - On the very top of the page there is navigation bar which is readable and I can easily navigate thorugh to go to any of the other 3 pages that I likes, also bottom border showes me in which page I am currently on the website. I can also click logo in top left corner which will take me dirrectly to the 'Home' page.
+     - this is the screenshot of the navigation bar
      ![Lake dippers](./README-images/navigation.webp) 
+  - As a first time visitor, I want to be able to find pictures &/or user stories to      
+   further confirm their work to me.
+    - I can easily navigate myself to 'Gallery' page which will display imges of the website so I can look more for their work
+    - this is screenshot of gallery page which clearly display 'lake dippers' work and activities
+    ![Lkae Dippers](./README-images/gallery-page.webp)
+    - in 'Home' page while scroling down I can see  big testemonial section with 4 users confirming their work and give credibitlity to theirwebsite
+    - testemonials sections shows image, name & date of the person who wrote thier review/experience that they had by joining 'Lake Dippers' #
+    -this is screen shot of testemonials section
+    ![Lake Dippers](./README-images/testemonials-section.webp)
+  - As a first time visitor, I want to be able to see where they are based and get options for how to get in contact with them, e.g. their social links/ contact form
+    - by srolling down the page in footer section there is community address with site map link, which takes me directly into new tab on google maps with pin-down location, on where they are based
+    - also in the footer there are social links which will take me to all social medai pages that 'Lake Dippers' are having account and using it
+    - this is screenshoot of the footer with information
+    - this is screenshoot of the footer section
+    ![Lake Dippers](./README-images/footer.webp)
+    - if I wish to send them privatly message I can either click on the 'Contact' in navigation menu or big button in the middle of the home page
