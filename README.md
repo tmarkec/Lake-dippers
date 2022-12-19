@@ -76,8 +76,34 @@ This is result for style.css page using W3C CSS Validator Services
     - in 'Home' page while scroling down I can see big testemonial section with 4 users confirming their work and give credibitlity to their website
     - testemonials sections shows image, name & date of the person who wrote thier review/experience that they had by joining 'Lake Dippers'   
   - As a first time visitor, I want to be able to see where they are based and get options for how to get in contact with them, e.g. their social links/ contact form
-    - In the footer of each page there is 'Location' section which gives me address with site map link that takes me directly into new tab on google maps with pin-down location on where they are based
+    - in the footer of each page there is 'Location' section which gives me address with site map link that takes me directly into new tab on google maps with pin-down location on where they are based
     - also in the footer of each page there are social links which will take me to all social media pages that 'Lake Dippers' are having account and using it for their social interaction with users
     - this is screenshoot of the footer with information
     ![Lake Dippers](./README-images/footer.webp)
-    - if I wish to contact them directly I can either click on the 'Contact' link in the navigation menu or big button'contact-us' in the middle of the home page on background image
+    - there is option to direct contact on the website, which I can find under 'contact' page
+- Returning visitor goal
+  - As a returning visitor, I want to be able to contact them and get a response to my enquiries.
+    -   I can click on any social media links with each one of them taking me to social network pages which 'Lake Dippers' are having account and using it for their social interaction with users
+    - or if I wish to contact them directlyon the website I can either click on the 'Contact' link in the navigation menu or big button'contact-us' in the middle of the home-page on the background image that takes me directly into 'Contact' page where I can fill out form with information and submit it
+  - As a returning visitor, I want to find useful links that are realeted to this community and their activities
+    - in the footer section there are 4 links that directs me to websites about the park/town- area in what their community is based and also site for emergency services in case of accident/incident
+    - also there are other links on 'About' page which help me to explore more about sections about benefits of swimming & cold water which are briefly explained on their website
+- Frequent user goals
+  - As a frequent user, I want to see updated pictures from events or just regular meet-ups
+    - user would be familiar with the navigation through the page so can easily find gallery and see if there is any new images in it
+  - As a frequent user, I want to read new user stories and experiences 
+    - user is comfortable with navigation so can easily find testemonial section and just by looking at the date in the corner of eact testemonial can determin has there be any updates on the website regarding user stories
+  - As a frequent user, I want to check to see if there are any new updates /section/pages/content
+    - simple navigation style and friendly user website gives me easy access to quickly check through website to look for any new sections/pages/content
+### Further testing
+- I've tested that this page works in different browsers: Chrome, Firefox, Microsoft Edge, Safari
+- I've tested that this website is responsive, and looks good on all standard screen sizes
+- I've confirmed that webiste has good visibility contrast and it's easy readable for user
+- image of the test performance
+ ![Lake Dippers](./README-images/visibility%20test.webp)
+ - I've tested that all internal links are working properly and navigate me through the pages
+ - I've tested that all external links are taking me to new tab and to related pages that where either in discription or in text
+ - I've tested form that works properly: requires entries in every field, will only accept email in the email field and that submit button works
+ - image of form-tests performed
+ ![Lakae dippers](./README-images/form2-test%20(1).webp)
+ ### Bugs
