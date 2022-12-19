@@ -93,7 +93,7 @@ img {
     padding:0.4rem;
 }
 .btn a:hover {
-    background-color: rgba(0, 48, 255, 0.8);
+    background-color: #1446a0;
     color: aliceblue;
     border: none;
     border-radius: 10px;
@@ -342,10 +342,11 @@ img {
     font-size: 1.2rem;
 }
 .benefits-container a {
-    color: rgba(0, 48, 255, 0.8);
+    color: #1446a0;
+    font-weight: bold;
 }
 .benefits-container a:hover {
-    color: orange;
+    color: #f18805;
     border-bottom: 1px solid #1446a0;
 }
 .benefits-container  h3 {
