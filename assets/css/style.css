@@ -17,16 +17,26 @@ ul {
 img {
     max-width: 100%;
 }
-/* .container {
-    padding: 0 4rem;
-    margin: auto;
-    overflow: hidden;
-} */
+
 .current {
     border-bottom: 2px solid #f18805;
     border-radius: 5px;
 }
-/*header background img*/
+.heading {
+    display:block;
+    justify-content: center;
+    margin: 4rem 1rem;
+    color: #1446a0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.heading h2 {
+    border-bottom: 4px solid #f18805;
+    width: 60%;
+    margin: 4rem;
+}
+/*---------------------home page-----------------------*/
+/*background img*/
 #main-home {
     background: url('../images/hero3.jpg')no-repeat center center/cover;
     height: 90vh;
@@ -65,6 +75,7 @@ img {
     border-bottom: 2px solid #f18805;
     border-radius: 5px;
 }
+
 /*header big text*/
 .text-hero {
     display: flex;
@@ -72,9 +83,10 @@ img {
     justify-content: center;
     align-items: center; 
     text-align: center;
-    margin-top: 20vh;
+    margin-top: 15%;
     color: aliceblue;
     font-size: 2rem;
+    padding: 1rem 2rem;
 }
 
 .text-hero h1 {
@@ -101,23 +113,58 @@ img {
     border-radius: 10px;
     transition: 0.6s;
 }
-
-/*---Main-section = same class as about us section on "About"Page ---*/
-/*heading class for all pages*/
-.heading {
-    display:block;
+/*----testemonials section----*/
+.testemonials-container {
+    padding: 2rem 2rem 6rem;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    margin: 4rem 1rem;
+}
+.testemonials-container .people {
+    margin: 10px;
+    width: 25%;
+    border: 2px solid #f18805;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px grey;
+}
+.people-image {
+    display: flex;
+    align-items: baseline;
+    padding: 3px;
+}
+.people-image .author{
+    font-size: 14px;
+    font-weight: 800;
+}
+.author .span {
+    font-weight: 100;
+    font-style: italic;
+    padding-left: 10px;
+}
+.people-image .author-image {
+    height: 90px;
+    width: 90px;
+    padding: 10px;
+}
+.people-image .author-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #1446a0;
+    object-fit: cover;
+}
+.people .people-text{
+    padding: 0.8rem 1rem;
+}
+.people-text .people-body {
+    padding:10px;
+}
+.people-text .up {
+    font-size: 1.2rem;
     color: #1446a0;
-    font-size: 2.1rem;
-    font-weight: bold;
 }
-.heading h2 {
-    border-bottom: 4px solid #f18805;
-    width: 60%;
-    margin: 4rem;
-}
-/*----------------footer--------------*/
+
+/*footer*/
 .main-footer {
     max-height: 15rem;
     background-color: #1446a0;
@@ -162,26 +209,6 @@ img {
     border-bottom: 2px solid #F18805;
  }
 
-/* .location {
-    padding: 1rem 0.4rem;
-    font-size: 1.1rem;
-}
-.location li {
-    color: aliceblue;
-}
-.map {
-    
-}
-.social {
-    padding: 1rem 0.4rem;
-}
-.social li {
-    padding: 0.1rem;
-}
-.social a {
-    color: aliceblue;
-    padding-top: 0.1rem;
-} */
 .copyright {
     display: block;
     align-items: center;
@@ -191,7 +218,7 @@ img {
     color: #f18805;
     word-spacing: 4px;
 }
-/*----------------------Contact page - form--------------------*/
+/*----------------------Contact page--------------------*/
 
 .form-container {
     padding:3rem;
@@ -250,7 +277,7 @@ img {
     background-color: #f18805;
     color: black;
 }
-/*-------------------------Gallery page------------*/
+/*-------------------------Gallery page---------------------*/
 .gallery-container {
     display: flex;
     flex-direction: column;
@@ -270,23 +297,6 @@ img {
     box-shadow: 7px 7px 7px grey;
 }
 
-/* .gallery-container .box {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 1rem;
-    flex-wrap: wrap;
-}
-.gallery-container .box .row {
-    display: flex;
-    flex-direction: column;
-    
-}
-.box .row img {
-    border-radius: 5px;
-    margin: 5px;
-    max-height: 500px;
-     max-width: 400px; 
-} */
 /*-----------------------About page----------------------*/
 
 /*about us section*/
@@ -295,7 +305,6 @@ img {
     margin: 2rem;
     padding: 3rem 1rem;
     justify-content: center;
-    align-items: center;
 }
 .about-section .about-text {
     flex: 1;
@@ -328,7 +337,7 @@ img {
     object-fit: cover;
     border-radius: 5px;
 } 
-/*benefits section----*/
+/*benefits section*/
 .benefits-container {
     display: flex;
     flex-wrap: wrap;
@@ -364,67 +373,13 @@ img {
     margin: 2rem 4rem;
 }
 
-/*----testemonials section----*/
-.testemonials-container {
-    padding: 2rem 2rem 6rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.testemonials-container .people {
-    margin: 10px;
-    width: 25%;
-    border: 2px solid #f18805;
-    border-radius: 5px;
-    box-shadow: 3px 3px 6px grey;
-
-}
-.people-image {
-    display: flex;
-    align-items: baseline;
-    padding: 3px;
-}
-.people-image .author{
-    font-size: 14px;
-    font-weight: 800;
-}
-.author .span {
-    font-weight: 100;
-    font-style: italic;
-    padding-left: 10px;
-}
-.people-image .author-image {
-    height: 90px;
-    width: 90px;
-    padding: 10px;
-}
-.people-image .author-image img {
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    border: 2px solid #1446a0;
-    object-fit: cover;
-}
-.people .people-text{
-    padding: 0.8rem 1rem;
-}
-.people-text .people-body {
-    padding:10px;
-}
-.people-text .up {
-    font-size: 1.2rem;
-    color: #1446a0;
-}
-
-
-/*-----------media querry------------------------*/
+/*---------------------media querry------------------------*/
 @media screen and (max-width:950px) {
-/*--index.html----about section--*/
+
     .about-section{
         flex-direction: column;
     }
-/*--about.html-----*/
-    .testemonials-container {
+   .testemonials-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
@@ -432,8 +387,6 @@ img {
     .testemonials-container .people{
         width: 100%;
     }
-   
-/*gallery images-----gallery.html*/
     .gallery-container .box{
         column-count: 2;
     }
@@ -450,7 +403,6 @@ img {
     }
 }
 @media screen and (max-width:550px) {
- /* header & footer*/
     .heading {
         font-size: 1.8rem;
     }
@@ -476,7 +428,6 @@ img {
     .footer-container .social{
         padding-right: 40%;
     }
-/*hero - text-------index.html*/
     .text-hero {
         margin-top: 30px;
     }  
@@ -490,22 +441,19 @@ img {
         margin: 0;
     }
    
-/*----about.html ------*/
-.testemonials-container {
+    .testemonials-container {
     display: flex;
     flex-direction:column;
-}
-.testemonials-container .people{
+    }
+    .testemonials-container .people{
     width: 100%;
-}
-.benefits-container {
+    }
+    .benefits-container {
     margin:0;
-}
- /*--gallery images----gallery.html*/
+    }
     .gallery-container .box{
         column-count: auto;
     }
-/*--form ---*/
     .labels {
         max-width: 80%;
     }

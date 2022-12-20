@@ -4,9 +4,9 @@ Lake Dippers is fully responsive website, created for local swimming community b
 ## User Experience (UX)
 - ### User stories
 #### 1. First time visitor goals
-- As a first time visitor, I want to understand purpose of this site and to easily navigate through it.
+- As a first time visitor, I want to understand purpose of this site and to easily navigate through it
 - As a first time visitor, I want to be able to find pictures &/or user stories to      
-   further explain their work to me.
+   further confirm their work to me
  - As a first time visitor, I want to be able to see where they are based and get options 
    for how to get in contact with them, e.g. their social links/a contact form
 ####  2.  Returning visitor goals
@@ -25,29 +25,27 @@ The colour scheme chosen for this project are 'Tangerine' colour with it's hex v
 The Dosis font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
 
   #### 3. Imagery
-Imagery is important. The large, background hero image stretches through the landing page and is designed to be striking and catch the user's attention at the very first glance. There are small images in the 'About us' page as well as in the 'Gallery' page which were used from Pexell and Unsplash website.
+ The large, background hero image stretches through the landing page and is designed to be striking and catch the user's attention at the very first glance and to give user idea about the website. There are small images in the 'About us' &'Home' page which chelp to explain the content, and there is 'Gallery' page which contains most of the images. 
 
-## Features 
-Responsive on all device sizes
 
 ## Technologies Used 
  ### Languages Used 
 - HTML5 
 - CSS3
  ### Frameworks, Libraries & Programes Used
-- #### Google fonts
+- #### [Google fonts](https://fonts.google.com/knowledge)
 Google fonts were used to import the 'Dosis' font into the style.css file which is used on all pages throughout the project
- - #### Font Awesome
+ - #### [Font Awesome](https://fontawesome.com/)
 Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
- - #### Git
+ - #### [Git](https://gitpod.io/)
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-  - #### GitHub
+  - #### [GitHub](https://github.com/)
 GitHub is used to store the projects code after being pushed from Git.
- - #### Balsamic
+ - #### [Balsamic](https://balsamiq.com/wireframes/?gclid=Cj0KCQiA14WdBhD8ARIsANao07g6CkndNmxQPlHP92mM3VQBwb6lbQIg5FPinhmNFxWsAnM7BpA_PukaAldMEALw_wcB)
 Balsamiq was used to create the wireframes during the design process
-
+![Balsamic image](./README-images/balsamic.webp)
 ## Testing
- The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+ The [W3C Markup Validator](https://validator.w3.org/#validate_by_input) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) Services were used to validate every page of the project to ensure there were no syntax errors in the project.
  ### index.html page
  ![Lake Dippers](./README-images/index-test.webp) 
  This is result for index.html page using W3C Markup Validator 
@@ -71,7 +69,7 @@ This is result for style.css page using W3C CSS Validator Services
      - In the same line as logo there is navigation bar which is eaisly to navigate through and it's design to never entrap user and to have clear page links we can look into if we want to, also there is another button-link in the middle of the background image in home page which colours and contrast attracts user to get in contact with them
      ![Lake dippers](./README-images/navigation.webp) 
   - As a first time visitor, I want to be able to find pictures &/or user stories to      
-   further confirm their work to me.
+   further confirm their work to me
     - I can navigate myself to the 'Gallery' page in which I can find dozen of images of the website so I can look at their activities, there are also images on 'home' page and 'about' page which are related to their community  
     - in 'Home' page while scroling down I can see big testemonial section with 4 users confirming their work and give credibitlity to their website
     - testemonials sections shows image, name & date of the person who wrote thier review/experience that they had by joining 'Lake Dippers'   
@@ -109,8 +107,7 @@ This is result for style.css page using W3C CSS Validator Services
  ## Bugs
 - as I was buliding website I was constantly debuging and changing my code
 - I had big performance issues in the beggining with the webiste but I've managed to improve it by shrinking the size of my images
-- bellow 370px of width of the screen footer looks little bit messy, and 'photo gallery text border is way to big for text
-- logo in the header is little bit less visible due to opacity for the navigation bar
+
 ## Features
  - Navigation
    - navigation is placed on top of the page it shows clicklable logo in the top left corner which will bring us on directly on the home page 
@@ -145,6 +142,7 @@ This is result for style.css page using W3C CSS Validator Services
       - Under "Source", click the dropdown called "None" and select "Master Branch".
       - The page will automatically refresh.
       - Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+      - live link for the page can be found here [Lake dippers](https://tmarkec.github.io/Lake-dippers/)
 - Forking the GitHub Repository
     - By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps
      - Log in to GitHub and locate the GitHub Repository
@@ -161,14 +159,15 @@ This is result for style.css page using W3C CSS Validator Services
    - Press Enter. Your local clone will be created.
 ## Credits
   - Code & Content
-    - help for my footer section and all along whenever I was stucjk with my code came through stackoverflow post and MDN Web docs
-    - inspiration for my header section and navigation bar came from Traversity media videos
+    -  I give credits to [Stack overflow](https://www.stackoverflow.com/),  [MDN Web Docs](https://developer.mozilla.org/en-US/) & [W3 Schools](https://www.w3schools.com/) for helping me resolve issues while coding through  
+    - inspiration for my header section and navigation bar came from [Traversity media](https://www.youtube.com/@TraversyMedia) videos
     - Love running project from Code Institute inspired me for the Gallery page
   - Media
-    - credit for my images accross the website goes to unsplash.com and pexell.com for providing me with images
-    - for my logo I give credit to app.logo.com for easily generating my idea and automaticly creating it
-    - instructions for my favicon came from MDN Web docs 
+    - credit for my images accross the website goes to [unsplash](https://unsplash.com/) and [pexell](https://www.pexels.com/) for providing me with images
+    - for my logo I give credit to[app-logo](https://app.logo.com/) for easily generating my idea and automaticly creating it
+    - instructions for my favicon came from [MDN Web Docs](https://developer.mozilla.org/en-US/)
   - Acknowledgment
     - special thank you goes to my mentor Narander who guided me through my project
-    - I would also like to thank tuttor support from Code Institue for their help, as well as whole Code Institue for giving me opportunity to attend this course and to work on this project
+    - I would like to thank tuttor support from Code Institue for their help, as well as whole Code Institue for giving me opportunity to attend this course and to work on this project
+    - I would also like to thank my collegaues for their support
     - last but not least I would like to thank Irene from Code Institute for giving guidance and schedules on daily basis in the classroom
