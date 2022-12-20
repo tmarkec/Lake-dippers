@@ -32,7 +32,7 @@ img {
 }
 .heading h2 {
     border-bottom: 4px solid #f18805;
-    width: 60%;
+    width: 40%;
     margin: 4rem;
 }
 /*---------------------home page--------------------------------*/
@@ -243,7 +243,7 @@ img {
     border-radius: 30px;
 
 }
-.labels {
+.form-fields .labels {
     padding:10px;
     height: 100%;
     max-width: 60%;
@@ -385,10 +385,10 @@ img {
 /*---------------------media querry------------------------*/
 /*----950px----*/
 @media screen and (max-width:950px) {
-    .text-hero {
+    #main-home .text-hero {
         font-size: 1.8rem;
     }
-    .about-section{
+    .about-container .about-section{
         flex-direction: column;
     }
    .testemonials-container {
@@ -405,10 +405,13 @@ img {
     .heading {
         font-size: 1.9rem;
     }
+    .heading h2 {
+        width: 50%;
+    }
 }
 /*----680px----*/
 @media  screen and (max-width:680px){
-    .text-hero {
+    #main-home .text-hero {
         font-size: 1.7rem;
     }
     .benefits-container {
@@ -417,18 +420,29 @@ img {
     }
     .logo-footer {
         width: 80px;
-        height: 80px;
+        
+    }
+    .heading {
+        font-size: 1.8rem;
+    }
+    .heading h2 {
+        width: 60%;
     }
 }
 /*----550px----*/
 @media screen and (max-width:550px) {
     .heading {
         font-size: 1.7rem;
+        text-align: center;
+    }
+    .heading h2 {
+        width: 60%;
+        margin: 0 auto;
     }
     #main-home {
         height: 70vh;
     }
-    .main-nav {
+    #main-home .main-nav {
         flex-direction: column;
         padding-bottom: 0.5rem;
     }
@@ -437,6 +451,18 @@ img {
     }
     .main-nav ul {
         margin: auto;
+    }
+    #main-home .text-hero {
+        margin-top: 30px;
+    }  
+    .text-hero h1 {
+        font-size: 1.8rem;
+    }
+    .text-hero p {
+        font-size: 1.5rem;
+    }
+    .text-hero a {
+        margin-top: 3rem;
     }
     .main-footer {
         max-height: 70vh;
@@ -451,22 +477,15 @@ img {
     .footer-container .social{
         padding-right: 40%;
     }
-    .text-hero {
-        margin-top: 30px;
-    }  
-    .text-hero h1 {
-        font-size: 1.8rem;
-    }
-    .text-hero p {
-        font-size: 1.5rem;
-    }
-    .text-hero a {
-        margin-top: 3rem;
-    }
     .about-section {
         margin: 0;
     }
-   
+    .about-section .about-text {
+        margin: 1rem;
+    }
+    .about-section .about-image {
+        margin: 1rem;
+    }
     .testemonials-container {
     display: flex;
     flex-direction:column;
@@ -480,11 +499,26 @@ img {
     .gallery-container .box{
         column-count: auto;
     }
-    .labels {
-        max-width: 80%;
-    }
     .form-container {
         padding:2rem;
     }
+    .form-fields .labels {
+        max-width: 80%;
+    }
 }
-
+/*----390px----*/
+@media screen and (max-width:390px) {
+    .text-hero {
+        padding: 0;
+    }
+    .heading {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .heading h2 {
+        margin: 0 auto;
+    }
+    .main-nav .logo-header {
+        display: none;
+    }
+}
