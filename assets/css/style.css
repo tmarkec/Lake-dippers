@@ -37,7 +37,7 @@ img {
 }
 /*---------------------home page--------------------------------*/
 /*background img*/
-#main-home {
+.main-home {
     background: url('../images/hero3.webp')no-repeat center center/cover;
     height: 90vh;
     width: 100%;
@@ -386,7 +386,7 @@ img {
 /*---------------------media querry------------------------*/
 /*----950px----*/
 @media screen and (max-width:950px) {
-    #main-home .text-hero {
+    .main-home .text-hero {
         font-size: 1.8rem;
     }
     .about-container .about-section{
@@ -418,7 +418,7 @@ img {
 }
 /*----680px----*/
 @media  screen and (max-width:680px){
-    #main-home .text-hero {
+    .main-home .text-hero {
         font-size: 1.7rem;
     }
     .benefits-container {
@@ -448,10 +448,10 @@ img {
         width: 60%;
         margin: 0 auto;
     }
-    #main-home {
+    .main-home {
         height: 70vh;
     }
-    #main-home .main-nav {
+    .main-home .main-nav {
         flex-direction: column;
         padding-bottom: 0.5rem;
     }
@@ -461,7 +461,7 @@ img {
     .main-nav ul {
         margin: auto;
     }
-    #main-home .text-hero {
+    .main-home .text-hero {
         margin-top: 30px;
     }  
     .text-hero h1 {

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,62 +9,70 @@
     <meta name="keywords" content="swimming, community, Killarney, Ireland">
     <script src="https://kit.fontawesome.com/cccdb242ea.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
     <title>Lake dippers</title>
 </head>
+
 <body>
     <!--Header section-->
-    <header id="home">
-            <nav class="main-nav">
-                <div class="logo-header" onclick="window.location.href='index.html'">
-                    <img src="./assets/images/logo.webp" alt="Lake Dippers logo">
-                </div>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="contact.html" class="current">Contact</a></li>
-                </ul>
-            </nav>
+    <header class="home">
+        <nav class="main-nav">
+            <div class="logo-header" onclick="window.location.href='index.html'">
+                <img src="./assets/images/logo.webp" alt="Lake Dippers logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="current">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <!--Form section-->
-    <div class="heading">
-        <h2>Contact form</h2>
-    </div>
-    <div class="form-container">
-        <h3>Fill out form</h3>
-        <form action="https://formdump.codeinstitute.net" name="contact_form">
-            <div class="form-fields">
-                <div class="labels">
-              <label for="fname">First Name</label>
-		      <input id="fname" name="first_name" type="text" required class="text-input">
-              <label for="lname">Last Name</label>
-		      <input id="lname" name="last_name" type="text" required class="text-input">
-              <label for="email">Email Address</label>
-		      <input id="email" name="email_address" type="email" required class="text-input">
-              <label for="phone">Phone Number</label>
-		      <input id="phone" name="phone_number" type="tel" required class="text-input">
-              <label for="textarea">Message</label>
-              <textarea id="textarea" name="textarea" class="area"></textarea>
-              <div class="center">
-              <input type="submit" value="Let's swimm!" class="button"></div>
+    <section id="form">
+        <div class="heading">
+            <h2>Contact form</h2>
+        </div>
+        <div class="form-container">
+            <h3>Fill out form</h3>
+            <form action="https://formdump.codeinstitute.net" name="contact_form">
+                <div class="form-fields">
+                    <div class="labels">
+                        <label for="fname">First Name</label>
+                        <input id="fname" name="first_name" type="text" required class="text-input">
+                        <label for="lname">Last Name</label>
+                        <input id="lname" name="last_name" type="text" required class="text-input">
+                        <label for="email">Email Address</label>
+                        <input id="email" name="email_address" type="email" required class="text-input">
+                        <label for="phone">Phone Number</label>
+                        <input id="phone" name="phone_number" type="tel" required class="text-input">
+                        <label for="textarea">Message</label>
+                        <textarea id="textarea" name="textarea" class="area"></textarea>
+                        <div class="center">
+                            <input type="submit" value="Let's swimm!" class="button"></div>
+                    </div>
                 </div>
+            </form>
+        </div>
+    </section>
+    <!--Footer section-->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="logo-footer" onclick="window.location.href='index.html'">
+                <img src="./assets/images/logo.webp" alt="Lake Dippers logo">
             </div>
-        </form>
-    </div>
-        <!--Footer section-->
-        <footer class="main-footer">
-            <div class="footer-container">
-                <div class="logo-footer" onclick="window.location.href='index.html'">
-                    <img src="./assets/images/logo.webp" alt="Lake Dippers logo">
-                </div>
-                <div class="social">
+            <div class="social">
                 <h2>Connect</h2>
                 <ul>
-                    <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook" rel="noopener" aria-label="visit our Facebook page"></i>&nbsp;Facebook</a></li>
-                    <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter" rel="noopener" aria-label="visit our Twitter page"> </i>&nbsp;Twitter</a></li>
-                    <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram" rel="noopener" aria-label="visit our Instagram page"></i>&nbsp;Instagram</a></li>
-                    <li><a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok" rel="noopener" aria-label="visit our Tik-Tok page"></i>&nbsp;TikTok</a></li>
+                    <li><a href="https://facebook.com" target="_blank" rel="noopener"
+                            aria-label="visit our Facebook page"><i class="fab fa-facebook"></i>&nbsp;Facebook</a></li>
+                    <li><a href="https://twitter.com" target="_blank" rel="noopener"
+                            aria-label="visit our Twitter page"><i class="fab fa-twitter"> </i>&nbsp;Twitter</a></li>
+                    <li><a href="https://instagram.com" target="_blank" rel="noopener"
+                            aria-label="visit our Instagram page"><i class="fab fa-instagram"></i>&nbsp;Instagram</a>
+                    </li>
+                    <li><a href="https://tiktok.com" target="_blank" rel="noopener"
+                            aria-label="visit our Tik-Tok page"><i class="fab fa-tiktok"></i>&nbsp;TikTok</a></li>
                 </ul>
             </div>
             <div class="location">
@@ -72,21 +81,28 @@
                     <li>Ireland,Kerry</li>
                     <li>Killarney NP</li>
                     <li>Dundag beach</li>
-                    <li><a href="https://www.google.com/maps/place/Muckross+Lake+Boat+Tours/@52.0111357,-9.5121346,15.75z/data=!4m5!3m4!1s0x48453db6333e2b93:0x6f8032af3d27fd37!8m2!3d52.0144933!4d-9.507974" 
-                        target="_blank" rel="noopener" aria-label="visit location map">Site map</a></li>
+                    <li><a href="https://www.google.com/maps/place/Muckross+Lake+Boat+Tours/@52.0111357,-9.5121346,15.75z/data=!4m5!3m4!1s0x48453db6333e2b93:0x6f8032af3d27fd37!8m2!3d52.0144933!4d-9.507974"
+                            target="_blank" rel="noopener" aria-label="visit location map">Site map</a></li>
                 </ul>
             </div>
             <div class="map">
                 <h2>Useful links</h2>
                 <ul>
-                    <li><a href="https://www.killarneynationalpark.ie/" target="_blank" rel="noopener" aria-label="visit Killarney National Park website">www.killarneynationalpark.ie</a></li>
-                    <li><a href="https://killarney.ie/" target="_blank"rel="noopener" aria-label="visit Killarney town website">www.killarney.ie</a></li>
-                    <li><a href="http://killarneywaterrescue.ie/" target="_blank"rel="noopener" aria-label="visit Killarney water rescue website">www.killarneywaterrescue.ie</a></li>
-                    <li><a href="https://www.killarneytidytowns.com/" target="_blank"rel="noopener" aria-label="visit Killarney tidy town website">www.killarneytidytowns.ie</a></li>
+                    <li><a href="https://www.killarneynationalpark.ie/" target="_blank" rel="noopener"
+                            aria-label="visit Killarney National Park website">www.killarneynationalpark.ie</a></li>
+                    <li><a href="https://killarney.ie/" target="_blank" rel="noopener"
+                            aria-label="visit Killarney town website">www.killarney.ie</a></li>
+                    <li><a href="http://killarneywaterrescue.ie/" target="_blank" rel="noopener"
+                            aria-label="visit Killarney water rescue website">www.killarneywaterrescue.ie</a></li>
+                    <li><a href="https://www.killarneytidytowns.com/" target="_blank" rel="noopener"
+                            aria-label="visit Killarney tidy town website">www.killarneytidytowns.ie</a></li>
                 </ul>
             </div>
         </div>
     </footer>
-    <div class="copyright"><p> Copyright ©2022 Lake Dippers. All rights reserved</p></div>
+    <div class="copyright">
+        <p> Copyright ©2022 Lake Dippers. All rights reserved</p>
+    </div>
 </body>
+
 </html>

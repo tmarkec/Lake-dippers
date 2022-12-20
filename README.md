@@ -18,15 +18,15 @@ Lake Dippers is fully responsive website, created for local swimming community b
  - As a frequent user, I want to read new user stories and experiences 
 - As a frequent user, I want to check to see if there is any news, or any new updates on the website
 
- - ### Design
-#### 1. Colour Scheme
-The colour scheme chosen for this project are 'Tangerine' colour with it's hex value of '#f18805', which was used for borders, hover effects and headings in footer section. The majority of the website was in 'Yale Blue' colour with it's hex value of '#1446a0', which was used as background colour for navigation bar, footer and big heading texts. 
+ ### Design
+- ####  Colour Scheme
+  - The colour scheme chosen for this project are 'Tangerine' colour with it's hex value of '#f18805', which was used for borders, hover effects and headings in footer section. The majority of the website was in 'Yale Blue' colour with it's hex value of '#1446a0', which was used as background colour for navigation bar, footer and big heading texts. 
 
-#### 2. Typography 
-The Dosis font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
+- ####  Typography 
+  - The Dosis font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
 
-  #### 3. Imagery
- The large, background hero image stretches through the landing page and is designed to be striking and catch the user's attention at the very first glance and to give user idea about the website. There are small images in the 'About us' &'Home' page which chelp to explain the content, and there is 'Gallery' page which contains most of the images. 
+ - ####  Imagery
+   - The large, background hero image stretches through the landing page and is designed to be striking and catch the user's attention at the very first glance and to give user idea about the website. There are small images in the 'About us' &'Home' page which chelp to explain the content, and there is 'Gallery' page which contains most of the images. 
 
 
 ## Technologies Used 
