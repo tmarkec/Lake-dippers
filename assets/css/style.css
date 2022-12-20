@@ -243,30 +243,31 @@ img {
     border-radius: 30px;
 
 }
-.text-input {
+.labels {
+    padding:10px;
+    height: 100%;
+    max-width: 60%;
+}
+.labels .text-input {
     width: 100%;
     min-height: 30px;
     margin: 0.5rem 0 0.8rem 0;
     border: 2px solid #1446a0;
     border-radius: 4px;
 }
-.labels {
-    padding:10px;
-    height: 100%;
-    max-width: 60%;
-}
-.area {
+
+.labels .area {
     height: 100px;
     width: 100%;
     margin: 0.5rem 0 0.8rem 0;
     border: 2px solid #1446a0;
     border-radius: 4px;
 }
-.center {
+.labels .center {
     display: flex;
     justify-content: center;
 }
-.button {
+.center .button {
     font-size: 1.5rem;
     border: 2px solid #1446a0;
     border-radius: 10px;
@@ -289,8 +290,7 @@ img {
 }
 .gallery-container .box{
     column-count: 3;
-}
-    
+}   
 .box img {
     width: 100%;
     max-height: 100%;
@@ -383,6 +383,7 @@ img {
 }
 
 /*---------------------media querry------------------------*/
+/*----950px----*/
 @media screen and (max-width:950px) {
     .text-hero {
         font-size: 1.8rem;
@@ -405,6 +406,7 @@ img {
         font-size: 1.9rem;
     }
 }
+/*----680px----*/
 @media  screen and (max-width:680px){
     .text-hero {
         font-size: 1.7rem;
@@ -418,6 +420,7 @@ img {
         height: 80px;
     }
 }
+/*----550px----*/
 @media screen and (max-width:550px) {
     .heading {
         font-size: 1.7rem;
@@ -427,9 +430,13 @@ img {
     }
     .main-nav {
         flex-direction: column;
+        padding-bottom: 0.5rem;
     }
     .main-nav .logo-header {
         margin-bottom: 10px;
+    }
+    .main-nav ul {
+        margin: auto;
     }
     .main-footer {
         max-height: 70vh;

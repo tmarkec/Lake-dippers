@@ -162,7 +162,7 @@ This is result for style.css page using W3C CSS Validator Services
     -  I give credits to [Stack overflow](https://www.stackoverflow.com/),  [MDN Web Docs](https://developer.mozilla.org/en-US/) & [W3 Schools](https://www.w3schools.com/) for helping me resolve issues while coding through  
     - inspiration for my header section and navigation bar came from [Traversity media](https://www.youtube.com/@TraversyMedia) videos
     - Love running project from Code Institute inspired me for the Gallery page
-    - credits for hover effect over images goes to [brandsmen](https://thebrandsmen.com/css-image-hover-effects/)
+    - credits for hover effect over images goes to [Brandsmen](https://thebrandsmen.com/css-image-hover-effects/)
   - Media
     - credit for my images accross the website goes to [unsplash](https://unsplash.com/) and [pexell](https://www.pexels.com/) for providing me with images
     - for my logo I give credit to[app-logo](https://app.logo.com/) for easily generating my idea and automaticly creating it
