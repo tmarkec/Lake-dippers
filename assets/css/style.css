@@ -39,7 +39,7 @@ img {
 /*background img*/
 #main-home {
     background: url('../images/hero3.webp')no-repeat center center/cover;
-    height: 80vh;
+    height: 90vh;
     width: 100%;
 }
 /*navigation menu*/
@@ -82,7 +82,7 @@ img {
     justify-content: center;
     align-items: center; 
     text-align: center;
-    margin-top: 15%;
+    margin-top: 5%;
     color: aliceblue;
     font-size: 2rem;
     padding: 1rem 2rem;
@@ -426,8 +426,10 @@ img {
         flex-direction: column;
     }
     .logo-footer {
-        width: 80px;
-        
+        width: 80px; 
+    }
+    .text-hero p {
+        display: none;
     }
     .heading {
         font-size: 1.8rem;
