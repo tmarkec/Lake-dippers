@@ -1,5 +1,6 @@
 # Lake Dippers
-Lake Dippers is fully responsive website, created for local swimming community based in Killarney co.Kerry. Focus of the wesite is to provide information about our activities, our community and to promote healthy and active side of life. Also with online presence it's expected to incurage more people to join 'Lake dippers' and to increase our membership.
+Lake Dippers is fully responsive website, created for local swimming community based in Killarney co.Kerry. Focus of the wesite is to provide information about activities, community and to promote healthy and active side of life. With online presence it's expected to incurage more people to join 'Lake dippers' and to increase our membership.
+![All screens website](./README-images/responsive.webp)
 
 ## User Experience (UX)
 - ### User stories
@@ -161,10 +162,10 @@ This is result for style.css page using W3C CSS Validator Services
   - Code & Content
     -  I give credits to [Stack overflow](https://www.stackoverflow.com/),  [MDN Web Docs](https://developer.mozilla.org/en-US/) & [W3 Schools](https://www.w3schools.com/) for helping me resolve issues while coding through  
     - inspiration for my header section and navigation bar came from [Traversity media](https://www.youtube.com/@TraversyMedia) videos
-    - Love running project from Code Institute inspired me for the Gallery page
+    - Love running project from [Code Institute](https://codeinstitute.net/ie/) inspired me for the Gallery page
     - credits for hover effect over images goes to [Brandsmen](https://thebrandsmen.com/css-image-hover-effects/)
   - Media
-    - credit for my images accross the website goes to [unsplash](https://unsplash.com/) and [pexell](https://www.pexels.com/) for providing me with images
+    - credit for my images accross the website goes to [Unsplash](https://unsplash.com/) and [Pexell](https://www.pexels.com/) for providing me with images
     - for my logo I give credit to[app-logo](https://app.logo.com/) for easily generating my idea and automaticly creating it
     - instructions for my favicon came from [MDN Web Docs](https://developer.mozilla.org/en-US/)
   - Acknowledgment
