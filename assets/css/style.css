@@ -223,6 +223,7 @@ img {
 
 .form-container {
     padding:3rem;
+    margin-bottom: 3rem;
     max-width: 600px;
     max-height: 700px;
     display: flex;
