@@ -38,8 +38,8 @@ img {
 /*---------------------home page-----------------------*/
 /*background img*/
 #main-home {
-    background: url('../images/hero3.jpg')no-repeat center center/cover;
-    height: 90vh;
+    background: url('../images/hero3.webp')no-repeat center center/cover;
+    height: 80vh;
     width: 100%;
 }
 /*navigation menu*/
@@ -55,7 +55,7 @@ img {
 .logo-header {
     max-width: 60px;
     max-height:60px;
-    margin-left: 10px;
+    margin: 10px;
 }
 .main-nav ul {
     display: flex; 
@@ -64,12 +64,11 @@ img {
 .main-nav ul li {
     padding:0 0.7rem;
 }
-.main-nav ul li a {
-    padding: 0 0.4rem;
-}
+
 .main-nav ul li a {
     color: aliceblue;
     font-size: 1.3rem;
+    padding: 0 0.4rem;
 }
 .main-nav ul li a:hover {
     border-bottom: 2px solid #f18805;
@@ -90,7 +89,7 @@ img {
 }
 
 .text-hero h1 {
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 .text-hero p {
     padding: 2rem;
@@ -105,6 +104,7 @@ img {
     background-color: #f18805;
     padding: 0.6rem;
     color: #1446a0;
+    font-weight: 600;
 }
 .btn:hover {
     background-color: #1446a0;
@@ -168,6 +168,7 @@ img {
 .main-footer {
     max-height: 15rem;
     background-color: #1446a0;
+    opacity: 0.95;
 }
 .footer-container {
     display: flex;
@@ -176,7 +177,7 @@ img {
     justify-content: center;
     padding: 1rem;
 }
-.footer-container  h4 {
+.footer-container  h2 {
     padding-bottom: 0.8rem;
     font-size: 1.2rem;
     font-weight: bold;
@@ -191,7 +192,7 @@ img {
     height: 110px;
     width: 110px;
     }
-.footer-container h4 {
+.footer-container h2 {
         color: #f18805;
     }
  .footer-container li a {
@@ -326,7 +327,7 @@ img {
 .about-section .about-image {
     flex: 1;
     max-height: 60vh;
-    width: 100%;
+    max-width: 100%;
     padding: 1rem;
     margin: 2rem;
     overflow: hidden;
@@ -343,7 +344,7 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    margin: 1rem 2rem;
+    margin: 2rem 2rem 6rem;
     padding: 1rem;
 }
 .benefits-container .swimm {
@@ -375,7 +376,9 @@ img {
 
 /*---------------------media querry------------------------*/
 @media screen and (max-width:950px) {
-
+    .text-hero {
+        font-size: 1.8rem;
+    }
     .about-section{
         flex-direction: column;
     }
@@ -390,9 +393,14 @@ img {
     .gallery-container .box{
         column-count: 2;
     }
-   
+    .heading {
+        font-size: 1.9rem;
+    }
 }
 @media  screen and (max-width:680px){
+    .text-hero {
+        font-size: 1.7rem;
+    }
     .benefits-container {
         display: flex;
         flex-direction: column;
@@ -404,10 +412,10 @@ img {
 }
 @media screen and (max-width:550px) {
     .heading {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
     #main-home {
-        height: 80vh;
+        height: 70vh;
     }
     .main-nav {
         flex-direction: column;
@@ -435,7 +443,10 @@ img {
         font-size: 1.8rem;
     }
     .text-hero p {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
+    }
+    .text-hero a {
+        margin-top: 3rem;
     }
     .about-section {
         margin: 0;
@@ -456,6 +467,9 @@ img {
     }
     .labels {
         max-width: 80%;
+    }
+    .form-container {
+        padding:2rem;
     }
 }
 
