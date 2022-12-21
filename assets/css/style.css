@@ -87,12 +87,12 @@ img {
 
 /*header big text*/
 .text-hero {
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 6%;
     color: aliceblue;
     font-size: 2rem;
     padding: 1rem 2rem;
