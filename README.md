@@ -47,23 +47,24 @@ Balsamiq was used to create the wireframes during the design process
 ![Balsamic image](./README-images/balsamic.webp)
 ## Testing
  - HTML 
-   - for testing my HTML code i used [W3C Markup Validator](https://validator.w3.org/#validate_by_input) and found no errors
+   - for testing my HTML code i used 
+    [W3C Markup Validator](https://validator.w3.org/#validate_by_input) and found no errors
  
- ![Lake Dippers](./README-images/index-test.webp) 
+   - ![Lake Dippers](./README-images/index-test.webp) 
   This is result for index.html page 
  
- ![Lake Dippers](./README-images/aboutus-test.webp)
+   - ![Lake Dippers](./README-images/aboutus-test.webp)
  This is result for about.html page
  
- ![Lake Dippers](./README-images/gallery-test.webp)
+   - ![Lake Dippers](./README-images/gallery-test.webp)
  This is result for about.html page using W3C Markup Validator
  
-  ![Lake Dippers](./README-images/form-test.webp)
+   - ![Lake Dippers](./README-images/form-test.webp)
  This is result for contact.html 
 
 - CSS 
   - for testing CSS code i used [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and had found no errors in code
-  ![Lake Dippers](./README-images/css-test.webp)
+  - ![Lake Dippers](./README-images/css-test.webp)
 This is result for style.css page 
 ## Testing user stories
 - First time visitor goal
