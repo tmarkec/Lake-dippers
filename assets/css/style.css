@@ -256,7 +256,6 @@ img {
     border: 2px solid #1446a0;
     border-radius: 4px;
 }
-
 .labels .area {
     height: 100px;
     width: 100%;
@@ -329,9 +328,9 @@ img {
 }
 .about-text::first-letter {
     font-weight: bold;
-    font-size: 3rem;
-    height: 2rem;
-    color: #1446a0;
+    font-size: 1.7rem;
+    color: black;
+    
 }
 .about-section .about-image {
     flex: 1;
