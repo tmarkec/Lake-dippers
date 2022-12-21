@@ -46,22 +46,25 @@ GitHub is used to store the projects code after being pushed from Git.
 Balsamiq was used to create the wireframes during the design process
 ![Balsamic image](./README-images/balsamic.webp)
 ## Testing
- The [W3C Markup Validator](https://validator.w3.org/#validate_by_input) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) Services were used to validate every page of the project to ensure there were no syntax errors in the project.
- ### index.html page
+ - HTML 
+   - for testing my HTML code i used [W3C Markup Validator](https://validator.w3.org/#validate_by_input) and found no errors
+ 
  ![Lake Dippers](./README-images/index-test.webp) 
- This is result for index.html page using W3C Markup Validator 
- ### about.html
+  This is result for index.html page 
+ 
  ![Lake Dippers](./README-images/aboutus-test.webp)
- This is result for about.html page using W3C Markup Validator
- ### gallery.html
+ This is result for about.html page
+ 
  ![Lake Dippers](./README-images/gallery-test.webp)
  This is result for about.html page using W3C Markup Validator
- ### contact.html
- ![Lake Dippers](./README-images/form-test.webp)
- This is result for contact.html page using W3C Markup Validator
-### style.css
-![Lake Dippers](./README-images/css-test.webp)
-This is result for style.css page using W3C CSS Validator Services
+ 
+  ![Lake Dippers](./README-images/form-test.webp)
+ This is result for contact.html 
+
+- CSS 
+  - for testing CSS code i used [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and had found no errors in code
+  ![Lake Dippers](./README-images/css-test.webp)
+This is result for style.css page 
 ## Testing user stories
 - First time visitor goal
   -  As a first time visitor I want ot understand purpose of this site and to easily navigate through

@@ -385,6 +385,11 @@ img {
 
 /*---------------------media querry------------------------*/
 /*----950px----*/
+@media  screen and (min-width:1300px) {
+    .text-hero {
+        margin-top: 10%;
+    }
+}
 @media screen and (max-width:950px) {
     .main-home .text-hero {
         font-size: 1.8rem;
