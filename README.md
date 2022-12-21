@@ -111,7 +111,7 @@ This is result for style.css page
  ![Lakae dippers](./README-images/form2-test%20(1).webp)
  ## Bugs
 - as I was buliding website I was constantly debuging and changing my code
-- I had big performance issues in the beggining with the webiste but I've managed to improve it by shrinking the size of my images
+- I had big performance issues in the beggining with the webiste but I've managed to improve it by shrinking the size of my images, and converting them from .jpg file to .webp
 
 ## Features
  - Navigation
