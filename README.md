@@ -1,6 +1,6 @@
 # Lake Dippers
 Lake Dippers is fully responsive website, created for local swimming community based in Killarney co.Kerry. Focus of the wesite is to provide information about activities, community and to promote healthy and active side of life. With online presence it's expected to incurage more people to join 'Lake dippers' and to increase our membership.
-![All screens website](./README-images/responsive.webp)
+![All screens website](./README-images/wireframes.webp)
 
 ## User Experience (UX)
 - ### User stories
@@ -49,21 +49,21 @@ Balsamiq was used to create the wireframes during the design process
    - for testing my HTML code i used 
     [W3C Markup Validator](https://validator.w3.org/#validate_by_input) and found no errors
  
-   - ![Lake Dippers](./README-images/index-test.webp) 
+   - ![index test](./README-images/index-test.webp) 
   This is result for index.html page 
  
-   - ![Lake Dippers](./README-images/aboutus-test.webp)
+   - ![about test](./README-images/aboutus-test.webp)
  This is result for about.html page
  
-   - ![Lake Dippers](./README-images/gallery-test.webp)
+   - ![gallery test](./README-images/gallery-test.webp)
  This is result for about.html page using W3C Markup Validator
  
-   - ![Lake Dippers](./README-images/form-test.webp)
+   - ![form test](./README-images/form-test.webp)
  This is result for contact.html 
 
 - CSS 
   - for testing CSS code i used [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and had found no errors in code
-  - ![Lake Dippers](./README-images/css-test.webp)
+  - ![css test](./README-images/css-test.webp)
 This is result for style.css page 
 ## Testing user stories
 - First time visitor goal
@@ -101,12 +101,12 @@ This is result for style.css page
 - I've tested that this page works in different browsers
   -  Chrome, Firefox, Microsoft Edge, Safari
 - I've tested that this website is responsive, and looks good on all standard screen sizes
-   - smallest Galaxy 8= 360px all the way up to 1600px
+   - smallest Galaxy 8= 360px all the way up to 1400px
 - I've confirmed that webiste has good visibility contrast and it's easy readable for user, with good contrast colours
 - image of the accessibility performance
  ![Lake Dippers](./README-images/visibility%20test.webp)
  - I've tested that all internal links are working properly and navigate me through the pages, and clicking on logo takes me back to the home page
-    - internal links: Home, About, Gallery, Contact, Logo
+    - internal links: Home, About, Gallery, Contact, Logo, as well as Contact us button on hero image
  - I've tested that all external links are taking me to new tab and to related pages that where either in discription or in text
    - external links: Facebook, Twitter, Instagram, Tik-tok, Site-map-google maps, Killarney Np, Killarney town, Killarney water rescue, Killarney tiddy towns
  - I've tested form that works properly
@@ -174,9 +174,9 @@ This is result for style.css page
     - Love running project from [Code Institute](https://codeinstitute.net/ie/) inspired me for the Gallery page
     - credits for hover effect over images goes to [Brandsmen](https://thebrandsmen.com/css-image-hover-effects/)
   - Media
-    - credit for my images accross the website goes to [Unsplash](https://unsplash.com/) and [Pexell](https://www.pexels.com/) for providing me with images
-    - for my logo I give credit to[app-logo](https://app.logo.com/) for easily generating my idea and automaticly creating it
-    - instructions for my favicon came from [MDN Web Docs](https://developer.mozilla.org/en-US/)
+    - credit for my images accross the website goes to [Unsplash](https://unsplash.com/) and [Pexell](https://www.pexels.com/) which I used accross my website
+    - for my logo I give credit to [app-logo](https://app.logo.com/) for easily generating my idea and automaticly creating logo for my website
+    - instructions how to create my favicon came from [MDN Web Docs](https://developer.mozilla.org/en-US/)
   - Acknowledgment
     - special thank you goes to my mentor Narander who guided me through my project
     - I would like to thank tuttor support from Code Institue for their help, as well as whole Code Institue for giving me opportunity to attend this course and to work on this project
