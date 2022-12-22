@@ -28,7 +28,6 @@ Lake Dippers is fully responsive website, created for local swimming community b
  - ####  Imagery
    - The large, background hero image stretches through the landing page and is designed to be striking and catch the user's attention at the very first glance and to give user idea about the website. There are small images in the 'About us' &'Home' page which chelp to explain the content, and there is 'Gallery' page which contains most of the images. 
 
-
 ## Technologies Used 
  ### Languages Used 
 - HTML5 
@@ -99,20 +98,26 @@ This is result for style.css page
   - As a frequent user, I want to check to see if there are any new updates /section/pages/content
     - simple navigation style and friendly user website gives me easy access to quickly check through website to look for any new sections/pages/content
 ### Further testing
-- I've tested that this page works in different browsers: Chrome, Firefox, Microsoft Edge, Safari
+- I've tested that this page works in different browsers
+  -  Chrome, Firefox, Microsoft Edge, Safari
 - I've tested that this website is responsive, and looks good on all standard screen sizes
-- I've confirmed that webiste has good visibility contrast and it's easy readable for user
-- image of the test performance
+   - smallest Galaxy 8= 360px all the way up to 1600px
+- I've confirmed that webiste has good visibility contrast and it's easy readable for user, with good contrast colours
+- image of the accessibility performance
  ![Lake Dippers](./README-images/visibility%20test.webp)
- - I've tested that all internal links are working properly and navigate me through the pages
+ - I've tested that all internal links are working properly and navigate me through the pages, and clicking on logo takes me back to the home page
+    - internal links: Home, About, Gallery, Contact, Logo
  - I've tested that all external links are taking me to new tab and to related pages that where either in discription or in text
- - I've tested form that works properly: requires entries in every field, will only accept email in the email field and that submit button works
+   - external links: Facebook, Twitter, Instagram, Tik-tok, Site-map-google maps, Killarney Np, Killarney town, Killarney water rescue, Killarney tiddy towns
+ - I've tested form that works properly
+   -  requires entries in every field, will only accept email in the email field, that button works, after submision of input we get conformation from Code institute website
  - image of form-tests performed
  ![Lakae dippers](./README-images/form2-test%20(1).webp)
  ## Bugs
 - as I was buliding website I was constantly debuging and changing my code
 - I had big performance issues in the beggining with the webiste but I've managed to improve it by shrinking the size of my images, and converting them from .jpg file to .webp
-
+  - I tried performance test on different browsers and always getting different scores from it
+  - to reduce page load of the gallery on mobile version I moved out few pictures for smaller devices
 ## Features
  - Navigation
    - navigation is placed on top of the page it shows clicklable logo in the top left corner which will bring us on directly on the home page 

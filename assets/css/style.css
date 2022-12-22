@@ -60,8 +60,8 @@ img {
 }
 
 .main-nav .logo-header {
-    max-width: 60px;
-    max-height: 60px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
 
@@ -451,37 +451,29 @@ img {
     .main-home .text-hero {
         font-size: 1.8rem;
     }
-
     .about-container .about-section {
         flex-direction: column;
     }
-
     .testemonials-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
     }
-
     .testemonials-container .people {
         width: 100%;
     }
-
     .gallery-container .box {
         column-count: 2;
     }
-
     .heading {
         font-size: 1.9rem;
     }
-
     .heading h2 {
         width: 50%;
     }
-
     .benefits-container .swimm {
         margin: 1rem 2rem;
     }
-
     .benefits-container .cold-water {
         margin: 1rem 2rem 3rem;
     }
@@ -492,35 +484,27 @@ img {
     .main-home .text-hero {
         font-size: 1.7rem;
     }
-
     .benefits-container {
         display: flex;
         flex-direction: column;
     }
-
     .logo-footer {
         width: 80px;
     }
-
-    .text-hero p {
-        display: none;
-    }
-    .text-hero h1 {
-        padding-bottom: 2rem;
-        
-    }
-
     .heading {
         font-size: 1.8rem;
     }
-
     .heading h2 {
         width: 60%;
+    }
+    .box img:nth-child(n+10) {
+        display: none;
     }
 }
 
 /*----550px----*/
 @media screen and (max-width:550px) {
+    /*main page*/
     .heading {
         font-size: 1.7rem;
         text-align: center;
@@ -567,6 +551,14 @@ img {
     .main-footer {
         max-height: 80vh;
     }
+    .testemonials-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testemonials-container .people {
+        width: 100%;
+    }
 
     .footer-container {
         display: grid;
@@ -579,7 +571,7 @@ img {
     .footer-container .social {
         padding-right: 40%;
     }
-
+    /*about page*/
     .about-section {
         margin: 0;
     }
@@ -590,15 +582,6 @@ img {
 
     .about-section .about-image {
         margin: 1rem;
-    }
-
-    .testemonials-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .testemonials-container .people {
-        width: 100%;
     }
 
     .benefits-container {
@@ -612,11 +595,14 @@ img {
     .benefits-container .cold-water {
         margin: 1rem 2rem 2rem;
     }
-
+    /*gallery page*/
     .gallery-container .box {
         column-count: auto;
     }
-
+    .box img:nth-child(n+8) {
+        display: none;
+    }
+    /*form page*/
     .form-container {
         padding: 2rem;
     }
