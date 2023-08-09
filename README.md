@@ -43,7 +43,7 @@ Git was used for version control by utilizing the Gitpod terminal to commit to G
 GitHub is used to store the projects code after being pushed from Git.
  - #### [Balsamic](https://balsamiq.com/wireframes/?gclid=Cj0KCQiA14WdBhD8ARIsANao07g6CkndNmxQPlHP92mM3VQBwb6lbQIg5FPinhmNFxWsAnM7BpA_PukaAldMEALw_wcB)
 Balsamiq was used to create the wireframes during the design process
-![Balsamic image](./README-images/balsamic.webp)
+![Balsamic image](./README-images/wireframes.png)
 ## Testing
  - HTML 
    - for testing my HTML code i used 
