@@ -1,7 +1,5 @@
 # Lake Dippers
 
-Test
-
 
 Lake Dippers is fully responsive website, created for local swimming community based in Killarney co.Kerry. Focus of the wesite is to provide information about activities, community and to promote healthy and active side of life. With online presence it's expected to incurage more people to join 'Lake dippers' and to increase our membership.
 
